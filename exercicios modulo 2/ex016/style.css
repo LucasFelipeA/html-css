@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+* { /*! O * é usado para referênciar um todo no site, tudo tem as seguintes características. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom,#95A1FC,#6c74b6); 
+    /* aprender como consertar */
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #363a5cb6;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #6F717D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #36373dbb;
+}
+h2{
+    color: #7780C9;
+}
+p{
+    text-align: justify;
+}

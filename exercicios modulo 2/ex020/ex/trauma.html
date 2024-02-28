@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medo</title>
+    <style>
+        div{
+            margin: left;
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        div > p{
+            padding: 35%;
+        }
+        img{
+            display: none;
+            border: 4px solid;
+            width: 400px;
+        }
+        audio{
+            width: 100px;
+        }
+        div:hover > img{
+            display: block;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Inicio do pesadelo</h1>
+    <h2>Passe o mouse para ficar traumatizado</h2>
+    <div id="cena">
+        <p>Aqui</p>
+        <img src="dlibx0xaux2b1.png"alt="Energy Drink...">
+        <audio src="1095387950356906045.mp3" id="audio" preload="metadata">aqui</audio>
+          <script>
+            var cena = document.getElementById("cena");
+            cena.addEventListener(
+            "mousemove",
+            (cena) => {
+                audio.play();
+                $audio.volume = 0.5;
+            })
+            
+          </script>
+    </div>
+</body>
+</html>

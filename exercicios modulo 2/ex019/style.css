@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em CSS é .
+
+    id é pra ser usado em casos únicos e class é pra ser usado quando há mais de um objeto com a mesma configuração.
+*/
+
+body{
+    background-color: #A6FA42;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #46691B;
+}
+#principal{
+    text-align: center;
+    background-color:  #46691B;
+    color: white
+    }
+h2{
+    color: #5D8B24;
+}
+.basico{
+    color: #46691B;
+}
+.intermediario{
+    color: #bfc230;
+    font-weight: bold;
+}
+.avancado{
+    color: #9e1717;
+}
+.destaque{
+    background-color: #DD41FA;
+}

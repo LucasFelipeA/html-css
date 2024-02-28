@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url(font/idroid.otf) format('opentype');}  
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: rgb(145, 233, 145);
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+}
+body > main{
+    margin: auto;
+    max-width: 1000px;
+}
+header{
+    margin: 0px;
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(#09D877,#03502C);
+    box-shadow: 0px 5px 6px #0120125b;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo_principal{
+    font: 900 2em "Bebas Neue", 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+h1, h2{
+    font-family: 'droid';
+    color: #03502C;
+    margin: 0px 20px;
+}
+#titulo{
+    font-size: 2em;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+h2{
+    background-image: linear-gradient(90deg, #6ec75591,#83e0692d,#83e06900);
+}
+header > nav{
+    text-align: left;
+    padding-bottom: 10px;
+}
+nav > a {
+    text-decoration: none;
+    color:white;
+    padding-left: 15px ;
+    font-weight: bold;
+}
+nav > a:hover{
+    color: rgb(42, 42, 114);
+}
+main{
+    border-radius: 0px 0px 25px 25px;
+    background-color: white;
+}
+main>section>article>p > a{
+    text-decoration: none;
+    color: #03502C;
+    font-weight: bold;
+}
+main > section#extra>aside >p> a{
+    text-decoration: none;
+    color: #03502C;
+    font-weight: bold;
+}
+main >section>article>p> a::after{
+    content: "🔗";
+}
+main > section#extra>aside >p> a::after{
+    content: "🔗";
+}
+p{
+    text-indent: 25px;
+    padding-left: 12px;
+}
+span.especial{
+    font-weight: bold;
+    color: #074e2d;
+}
+article.video{
+    background-color: #03502C;
+    padding: 20px 40px;
+}
+aside.video{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+}
+section.foto{
+    text-align: center;
+}
+#extra > aside{
+    background-color: #a8fad4;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 2px 3px 5px rgba(2, 65, 35, 0.404);
+}
+#extra > aside > h3{
+    color: white;
+    background-color: #09D877;
+    padding: 7px 15px;
+    border-radius: 15px 20px 0px 0px;
+}
+ul li{
+    width: 400px;
+  height: 30px;
+  margin: 0px;
+ overflow: hidden;
+}
+ul li:nth-child(odd) {
+    float:left;
+  }
+#extra > aside >ul >li::before{
+    content: "✔";
+}
+#extra > p{
+    padding-bottom: 15px;
+}
+/* U+1F517 */
+footer{
+    text-align: center;
+    background-color: #03502C;
+    color: white;
+    padding: 6px 0px;
+}
