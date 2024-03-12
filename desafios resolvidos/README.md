@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar os meus repositórios!
 
-<a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d001/solução.html" target="_self">Primeiro desafio resolvido</a>
+<a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d001/solucao.html" target="_self">Primeiro desafio resolvido</a>
