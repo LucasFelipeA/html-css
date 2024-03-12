@@ -5,7 +5,7 @@
 
 <a href="https://lucasfelipea.github.io/html-css/exercicios modulo 2/ex016/cor01.html" target="_self">Primeiro exercício criado</a><br>
 
-<a href="https://lucasfelipea.github.io/html-css/exercicios modulo 2/ex017/font01.html" target="_self">Segundo exercício criado</a><br>
+<a href="https://lucasfelipea.github.io/html-css/exercicios modulo 2/ex017/fonte01.html" target="_self">Segundo exercício criado</a><br>
 
 <a href="https://lucasfelipea.github.io/html-css/exercicios modulo 2/ex018/font01.html" target="_self">Terceiro exercício criado</a><br>
 
