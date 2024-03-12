@@ -4,3 +4,5 @@
  Estou aprendendo a criar sites e agora vou gerenciar os meus repositórios!
 
 <a href="https://lucasfelipea.github.io/html-css/exercicios modulo 1/ex001" target="_self">Primeiro exercício criado</a>
+
+<a href="https://lucasfelipea.github.io/html-css/desafios resolvidos" target="_self">Aba de desafios resolvidos</a>
