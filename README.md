@@ -7,4 +7,6 @@
 
 <a href="https://lucasfelipea.github.io/html-css/exercicios modulo 1" target="_self">Aba de exercícios M1</a>
 
+<a href="https://lucasfelipea.github.io/html-css/exercicios modulo 2" target="_self">Aba de exercícios M2</a>
+
 <a href="https://lucasfelipea.github.io/html-css/desafios resolvidos" target="_self">Aba de desafios resolvidos</a>
