@@ -15,5 +15,5 @@
     <a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d009/solucao.html" target="_self">Nono desafio resolvido</a><br>
     <a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d010/solucao.html" target="_self">Décimo desafio resolvido</a><br>
     <a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d011/solucao.html" target="_self">Décimo primeiro desafio resolvido</a><br>
-    <a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d012/projeto-cordel/solucao.html" target="_self">Décimo segundo desafio resolvido</a><br>
+    <a href="https://lucasfelipea.github.io/html-css/desafios resolvidos/d012/solucao.html" target="_self">Décimo segundo desafio resolvido</a><br>
 </p>

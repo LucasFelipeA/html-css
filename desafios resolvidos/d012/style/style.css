@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1:"Passion One";
+    --font2:"Sriracha";
+}
+*{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    display: inline-block;
+    font: normal bold 7vw var(--font1),cursive;
+    color: white;
+    padding: 60px 10px 0px;
+    text-transform: uppercase;
+}
+h1::first-letter{
+    font-size: 10vw;
+}
+nav{
+    color: white;
+    padding-bottom: 40px;
+    font: normal bold 1em Verdana, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    font: normal 4vw var(--font2), cursive;
+    text-align: justify;
+    padding-bottom: 71px;
+}
+article{
+    padding: 68.9px 20px;
+}
+.imagem{
+    color: white;
+    padding: 68.9px 30px;
+    box-shadow: inset 2px 8px 5px rgba(0, 0, 0, 0.24);
+}
+article.imagem > p{
+    background-color: rgba(0, 0, 0, 0.363);
+    width: fit-content;
+}
+#flor{
+    background: white url("/image/background001.jpg") center center fixed;
+    background-size: cover;
+}
+#folhas{
+    background: white url("/image/background002.jpg") center center fixed;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font: normal 1em Verdana,sans-serif;
+}
+footer > a#extra{
+    text-align: left;
+}
