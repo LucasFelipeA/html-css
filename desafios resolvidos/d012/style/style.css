@@ -42,11 +42,10 @@ p{
     padding-bottom: 71px;
 }
 article{
-    padding: 68.9px 20px;
+    padding: 68.9px 30px;
 }
 .imagem{
     color: white;
-    padding: 68.9px 30px;
     box-shadow: inset 2px 8px 5px rgba(0, 0, 0, 0.24);
 }
 article.imagem > p{
