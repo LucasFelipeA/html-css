@@ -27,6 +27,9 @@ h1::first-letter{
 nav{
     color: white;
     padding-bottom: 40px;
+    font: normal 1em Verdana, sans-serif;
+}
+nav > a{
     font: normal bold 1em Verdana, sans-serif;
 }
 a{
