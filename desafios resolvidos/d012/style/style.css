@@ -54,11 +54,11 @@ article.imagem > p{
     width: fit-content;
 }
 #flor{
-    background: white url("/image/background001.jpg") center center fixed;
+    background: white url("../image/background001.jpg") center center fixed;
     background-size: cover;
 }
 #folhas{
-    background: white url("/image/background002.jpg") center center fixed;
+    background: white url("../image/background002.jpg") center center fixed;
     background-size: cover;
 }
 footer{
