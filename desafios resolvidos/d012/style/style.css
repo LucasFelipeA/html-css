@@ -21,7 +21,7 @@ h1{
     padding: 60px 10px 0px;
     text-transform: uppercase;
 }
-h1::first-letter{
+h1 > span{
     font-size: 10vw;
 }
 nav{
@@ -40,7 +40,7 @@ a:hover{
     text-decoration: underline;
 }
 p{
-    font: normal 4vw var(--font2), cursive;
+    font: normal 3.5vw var(--font2), cursive;
     text-align: justify;
     padding-bottom: 71px;
 }
