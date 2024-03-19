@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -23,8 +24,14 @@
             padding: 10px;
         }
         thead, tfoot{
-            background-color: grey;
+            background-color: rgb(102, 102, 102);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(102, 102, 102);
+            
         }
         tbody > tr:nth-child(odd){ /* 2n-1 */
             background-color: white;
@@ -34,9 +41,6 @@
         }
         td.num{
             text-align: right;
-        }
-        .zebra{
-            background-color: lightgrey;
         }
     </style>
 </head>
@@ -176,5 +180,9 @@
             </tr>
         </tbody>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur quos non incidunt. Sequi cumque corrupti itaque alias dignissimos ipsa sit id, voluptatem maiores praesentium modi dolorum autem nobis quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quisquam corporis, dolorum, officia temporibus quos totam voluptatibus eius maxime facilis blanditiis nam ex dolores possimus nisi reprehenderit! Corrupti, cum nobis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus pariatur asperiores perspiciatis nam eos at harum adipisci totam explicabo hic, sint perferendis laboriosam omnis esse cupiditate sit numquam dicta quod! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ipsum modi aspernatur error facilis et officia provident nihil, distinctio, laborum, consequatur consectetur ipsa corporis. Nobis consequuntur itaque aspernatur suscipit dolore!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur quos non incidunt. Sequi cumque corrupti itaque alias dignissimos ipsa sit id, voluptatem maiores praesentium modi dolorum autem nobis quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quisquam corporis, dolorum, officia temporibus quos totam voluptatibus eius maxime facilis blanditiis nam ex dolores possimus nisi reprehenderit! Corrupti, cum nobis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus pariatur asperiores perspiciatis nam eos at harum adipisci totam explicabo hic, sint perferendis laboriosam omnis esse cupiditate sit numquam dicta quod! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ipsum modi aspernatur error facilis et officia provident nihil, distinctio, laborum, consequatur consectetur ipsa corporis. Nobis consequuntur itaque aspernatur suscipit dolore!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur quos non incidunt. Sequi cumque corrupti itaque alias dignissimos ipsa sit id, voluptatem maiores praesentium modi dolorum autem nobis quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quisquam corporis, dolorum, officia temporibus quos totam voluptatibus eius maxime facilis blanditiis nam ex dolores possimus nisi reprehenderit! Corrupti, cum nobis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus pariatur asperiores perspiciatis nam eos at harum adipisci totam explicabo hic, sint perferendis laboriosam omnis esse cupiditate sit numquam dicta quod! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ipsum modi aspernatur error facilis et officia provident nihil, distinctio, laborum, consequatur consectetur ipsa corporis. Nobis consequuntur itaque aspernatur suscipit dolore!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur quos non incidunt. Sequi cumque corrupti itaque alias dignissimos ipsa sit id, voluptatem maiores praesentium modi dolorum autem nobis quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quisquam corporis, dolorum, officia temporibus quos totam voluptatibus eius maxime facilis blanditiis nam ex dolores possimus nisi reprehenderit! Corrupti, cum nobis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus pariatur asperiores perspiciatis nam eos at harum adipisci totam explicabo hic, sint perferendis laboriosam omnis esse cupiditate sit numquam dicta quod! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ipsum modi aspernatur error facilis et officia provident nihil, distinctio, laborum, consequatur consectetur ipsa corporis. Nobis consequuntur itaque aspernatur suscipit dolore!</p>
 </body>
 </html>

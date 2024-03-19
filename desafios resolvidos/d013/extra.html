@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+        }
+        table{
+            border-collapse: collapse;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+        td:hover{
+            background-color: lightgrey;
+        }
+        td:active{
+            background-color: grey;
+        }
+        th{
+            border: 1px solid black;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <td>Esc</td>
+            <th class="espaco">      </th>
+            <td>F1 </td>
+            <td>F2  </td>
+            <td>F3  </td>
+            <td>F4  </td>
+            <th class="espaco">      </th>
+            <td>F5  </td>
+            <td>F6  </td>
+            <td>F7  </td>
+            <td>F8  </td>
+            <th class="espaco">      </th>
+            <td>F9</td>
+            <td>F10</td>
+            <td>F11</td>
+            <td>F12</td>
+            <th class="espaco">      </th>
+            <td>Print<br>Screen</td>
+            <td>Scroll<br>Lock</td>
+            <td>Pause<br>Break</td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left;">"<br>'</td>
+                <td>!<br>1¹</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>0</td>
+                <td>_<br>-</td>
+                <td>+<br>=<br></td>
+                <td colspan="3">backspace</td>
+                <th class="espaco">      </th>
+                <td>Insert</td>
+                <td>Home</td>
+                <td>Page<br>Up</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tab</td>
+                <td>Q</td>
+                <td>W</td>
+                <td>E</td>
+                <td>R</td>
+                <td>T</td>
+                <td>Y</td>
+                <td>u</td>
+                <td>i</td>
+                <td>o</td>
+                <td>p</td>
+                <td>`<br><sub>´</sub></td>
+                <td style="text-align: left;">{<br>[   <sub>ª</sub></td>
+                <td rowspan="2" colspan="2">enter</td>
+                <th class="espaco">      </th>
+                <td>Delete</td>
+                <td>End</td>
+                <td>Page<br>Down</td>              
+            </tr>
+            <tr>
+                <td colspan="2">Capslock</td>
+                <td>A</td>
+                <td>S</td>
+                <td>D</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td>j</td>
+                <td>k</td>
+                <td>l</td>
+                <td>ç</td>
+                <td>^<br>~</td>
+                <td style="text-align: left;">}<br>]   <sub>º</sub></td>
+                <th class="espaco"></th>
+                <th class="espaco"></th>
+                <th class="espaco"></th>
+                <th class="espaco"></th>
+            </tr>
+            <tr>
+                <td>Shift</td>
+                <th class="espaco"></th>
+                <td style="text-align: left;">|<br><strong>\</strong></td>
+                <td>Z</td>
+                <td>X</td>
+                <td>C</td>
+                <td>V</td>
+                <td>B</td>
+                <td>N</td>
+                <td>M</td>
+                <td><<br><strong>,</strong></td>
+                <td>><br><strong>.</strong></td>
+                <td><strong>:<br>;</strong></td>
+                <td>?<br>/ <sub>°</sub></td>
+                <td colspan="2">Shift</td>
+                <th class="espaco"></th>
+                <th></th>
+                <td>⬆</td>
+                <th></th>
+            </tr>
+            <tr>
+                <td>CTRL</td>
+                <td>🔳</td>
+                <td>ALT</td>
+                <td colspan="9"></td>
+                <td>Alt Gr</td>
+                <td>FN</td>
+                <td>💡</td>
+                <td>CTRL</td>
+                <th class="espaco"></th>
+                <td>⬅</td>
+                <td>⬇</td>
+                <td>➡</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
