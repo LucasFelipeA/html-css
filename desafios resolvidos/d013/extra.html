@@ -113,16 +113,16 @@
                 </tr>
                 <tr>
                     <td colspan="2">Capslock</td>
-                    <td>A</td>
-                    <td>S</td>
-                    <td>D</td>
-                    <td>F</td>
-                    <td>G</td>
-                    <td>H</td>
-                    <td>j</td>
-                    <td>k</td>
-                    <td>l</td>
-                    <td>ç</td>
+                    <td id="akey">A</td>
+                    <td id="skey">S</td>
+                    <td id="dkey">D</td>
+                    <td id="fkey">F</td>
+                    <td id="gkey">G</td>
+                    <td id="hkey">H</td>
+                    <td id="jkey">j</td>
+                    <td id="kkey">k</td>
+                    <td id="lkey">l</td>
+                    <td id="çkey">ç</td>
                     <td>^<br>~</td>
                     <td style="text-align: left;">}<br>]   <sub>º</sub></td>
                     <th class="espaco"></th>
@@ -155,8 +155,8 @@
                     <td>CTRL</td>
                         <td><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU" target="blank">🔳</a></td>
                     <td>ALT</td>
-                    <td colspan="9"></td>
-                    <td>Alt Gr</td>
+                    <td colspan="9" id=" key"></td>
+                    <td >Alt Gr</td>
                     <td>FN</td>
                     <td>💡</td>
                     <td>CTRL</td>
@@ -168,5 +168,27 @@
             </tbody>
         </table>
     </div>
+    <script>
+document.addEventListener("keydown",
+  (event) => {
+    const keyName = event.key;
+        document.getElementById(`${keyName}key`).style.background = 'lightgrey'
+  },
+  false,
+);
+
+document.addEventListener(
+  "keyup",
+  (event) => {
+    const keyName = event.key;
+        document.getElementById(`${keyName}key`).style.background = 'white'
+},
+  false,
+);
+document.addEventListener("onmouseenter",(event) => {
+    const keyName = event;
+    document.getElementById(`${keyName}key`).style.background = 'grey'
+})
+    </script>
 </body>
 </html>
