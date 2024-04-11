@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Cadastro de Funcionário da Etec</h1></header>
+    <main>
+        <section>
+            <table >
+                <theader>DADOS DO FUNCIONÁRIO</theader>
+            <thead>
+                <td rowspan="5" id="foto"  onclick="foto()">Foto</td>
+                <td colspan="2"><label for="Nome:">Nome:</label><input type="text" name="form" id="Nome:" style="width: 450px; border: 0px;"></td>
+            <tr>
+                <td colspan="2"><label for="Data de Nascimento:">Data de Nascimento:</label> <input type="date" name="form" id="Data de Nascimento:"></td>
+            </tr>
+            <tr>
+                <td colspan="2""><label for="Setor:">Setor:</label> <input type="text" name="form" id="Setor:" style="width: 450px; border: 0px;"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="Função:">Função:</label> <input type="text" name="form" id="Função:" style="width: 443px; border: 0px;"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="Formação:">Formação:</label> <input type="text" name="form" id="Formação:" style="width: 425px; border: 0px;"></td>
+            </tr>
+            </thead>
+            </table>
+            <table>
+                <tbody>  
+                    <tr>
+                        <td colspan="3"><label for="end">Endereço:</label> <input type="text" name="form" id="end" style="width: 450px; border: 0px; font-style: italic;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><label for="complemento">Complemento: </label><input type="text" name="form" id="complemento" style="width: 450px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 35%;"><label for="bairro">Bairro:</label> <input type="text" name="form" id="bairro" style=" width:150px; border: 0px;"></td>
+                        <td style="width: 35%;"><label for="cidade">Cidade:</label> <input type="text" name="form" id="cidade" style="width: 120px; border: 0px;"></td>
+                        <td style="width: 35%"><label for="estado">Estado:</label><input type="text" name="form" id="estado" style="width: 100px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><label for="CEP">CEP:</label><input type="text" name="form" id="CEP" style="width: 110px; border: 0px;"></td>
+                        <td colspan="2"><label for="Celular">Celular:</label><input type="text" name="form" id="Celular" style="width: 180px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="padding: 6px;">Tem dependentes? <input type="radio" name="radopt" id="sim"><label for="sim">Sim</label> <input type="radio" name="radopt" id="nao"> <label for="nao">Não</label></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <table>
+                <theader>DADOS DO DEPENDENTE</theader>
+                <tbody>
+                    <tr>
+                        <td colspan="2"><label for="Nome:">Nome:</label><input type="text" name="form" id="Nome:" style="width: 450px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CPF:">CPF:</label><input type="text" name="form" id="CPF:" style="width: 250px; border: 0px;"></td>
+                        <td><label for="RG:">RG:</label><input type="text" name="form" id="RG:" style="width: 250px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Profissão:">Profissão:</label><input type="text" name="form" id="Profissão:" style="width: 230px; border: 0px;"></td>
+                        <td><label for="Telefone:">Telefone:</label><input type="text" name="form" id="Telefone:" style="width: 230px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="E-mail:">E-mail:</label><input type="text" name="form" id="E-mail:" style="width: 450px; border: 0px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding: 5px;">Tipo Dependente 
+                            <input type="radio" name="radopt2" id="pai"><label for="pai">Pai</label>
+                            <input type="radio" name="radopt2" id="mae"><label for="mae">Mãe</label>
+                            <input type="radio" name="radopt2" id="filho"><label for="filho">Filho</label>
+                            <input type="radio" name="radopt2" id="conjuge"><label for="conjuge">Cônjuge</label></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <input type="button" value="Cadastrar" id="test" onclick="Cadastrar()" style="margin-right: 80px;">
+        <input type="button" value="Limpar" id="test" onclick="Limpar()">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
