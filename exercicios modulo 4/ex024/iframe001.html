@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Iframe</title>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o site do 
+        <div onclick="visivel()" style="background-color: rgb(152, 133, 235); width: 100px; height: 100px; position: absolute;"><p style="position: relative; top: 50%; transform: translateY(-50%); padding: 0px; margin: 0px; text-align: center;">Clique me</p></div>
+        <iframe src="https://lucasfelipea.github.io/html-css" frameborder="0" hidden width="500px" height="500px"></iframe>
+        
+        para aprender a programar.</p>
+        <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal!</p>
+        <script>
+            function visivel(){
+                var div = document.getElementsByTagName('div')[0]
+                var ifr = document.getElementsByTagName('iframe')[0]
+                ifr.hidden = false
+                div.hidden = true
+            }
+        </script>
+</body>
+</html>
