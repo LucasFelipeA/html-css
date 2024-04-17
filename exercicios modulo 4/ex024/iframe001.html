@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframe</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
     <p>Acessando o site do 
         <div onclick="visivel()" style="background-color: rgb(152, 133, 235); width: 100px; height: 100px; position: absolute;"><p style="position: relative; top: 50%; transform: translateY(-50%); padding: 0px; margin: 0px; text-align: center;">Clique me</p></div>
-        <iframe src="https://lucasfelipea.github.io/html-css" frameborder="0" hidden width="500px" height="500px"></iframe>
+        <!--  Tamanho padrão 300x150  -->
+        <iframe src="https://lucasfelipea.github.io/html-css" frameborder="0" hidden width="500px" height="500px" scrolling="yes"><a href="https://lucasfelipea.github.io/html-css" target="_blank">Lucas Github</a></iframe>
         
         para aprender a programar.</p>
-        <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal!</p>
+        <p>O site do <iframe src="https://www.google.com.br" frameborder="0"><a href="https://www.google.com.br" target="_blank">google.com</a></iframe> também é muito legal! Pena que não funciona :(</p>
+        <p>
+            O repositório do Guanabara
+            <iframe src="https://gustavoguanabara.github.io" frameborder="0"><a href="https://gustavoguanabara.github.io" target="_blank">Guanabara Github</a></iframe>
+        </p>
         <script>
             function visivel(){
                 var div = document.getElementsByTagName('div')[0]
