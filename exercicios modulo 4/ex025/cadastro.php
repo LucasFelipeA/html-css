@@ -3,6 +3,6 @@
     <title>Teste PHP</title>
     </head>
     <body>
-        <?php echo"$nome"; $nome ?>
+        Olá <?php echo $_GET["nome"]; ?><br>
     </body>
 </html>
