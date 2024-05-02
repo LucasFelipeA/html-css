@@ -1,2 +1,8 @@
-Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles.
+<html>
+    <head>
+    <title>Teste PHP</title>
+    </head>
+    <body>
+        <?php echo"$nome"; $nome ?>
+    </body>
+</html>
