@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <form action="lolja.php" method="POST" autocomplete="off">
+        <p>
+            <label for="iprod">Produto: </label>
+            <select name="prod" id="iprod" oninput="produto(iprod.value)">
+                <option>--Escolha o Produto--</option>
+                <option value="iphone">Iphone</option>
+                <option value="hamburguer">Hambúrguer</option>
+                <option value="ms">Mãe do Soul</option>
+            </select>
+        </p>
+        <p>
+            <label for="iquant">Quantidade: </label>
+            <input type="number" name="quant" id="iquant" min="1" max="10" placeholder="1 à 10" value="1" oninput="produto(iprod.value)">
+        </p>
+        <p>
+            <label for="ipreco">Preço: </label>
+            <output id="ipreco">0 R$</output>
+        </p>
+        <p>
+            <input type="submit" value="Comprar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function produto(p){
+            if (Number(iquant.value)>10 || Number(iquant.value) < 0){
+                ipreco.innerHTML = `Coloque um valor válido`
+            }else{
+                switch (p) {
+                    case 'iphone':
+                        ipreco.innerHTML = `${1600*Number(iquant.value)} R$`
+                        break;
+                
+                    case 'hamburguer':
+                        ipreco.innerHTML = `${30*Number(iquant.value)} R$`
+                        break;
+                    case 'ms':
+                        ipreco.innerHTML = `${Infinity*Number(iquant.value)} R$`
+                        break;
+                    }
+            }
+        }
+        ipreco
+    </script>
+</body>
+</html>
